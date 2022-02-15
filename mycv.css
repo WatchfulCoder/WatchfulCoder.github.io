@@ -1,0 +1,97 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+}
+
+#global-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#entete {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header-space {
+    width:300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.button {
+    font-size: 20px;
+   /*  padding: 10px;
+    border: 1px solid rgb(0, 39, 167);
+    border-radius: 8px; */
+    text-decoration: none;
+}
+
+section.slots {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section.underslot {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#experience {
+    align-self: flex-end;
+}
+
+#titel {
+    color: rgb(1, 39, 167);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#untertitel {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#profil {
+    font-size: 15px;
+    align-self: flex-end;
+    text-align: justify;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.lien {
+    font-size: 15px;
+}
+
+h2.titre {
+    color:rgb(1, 39, 167);
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+.bold {
+    font-size: 105%;
+    font-weight: bold;
+}
